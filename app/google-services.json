@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "372688677839",
+    "firebase_url": "https://pocket-princess.firebaseio.com",
+    "project_id": "pocket-princess",
+    "storage_bucket": "pocket-princess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372688677839:android:b469e04733c98f15b740ba",
+        "android_client_info": {
+          "package_name": "com.sungbin.pocketprincess.downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372688677839-30rhb61raoeiqqp5d81cqrksveq4sqi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB0o7rgq5nc-CtyxvLc7IyCXMtv6tomzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372688677839-30rhb61raoeiqqp5d81cqrksveq4sqi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

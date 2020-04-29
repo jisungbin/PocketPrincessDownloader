@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/default_margin"
+    android:paddingEnd="@dimen/default_margin"
+    android:paddingStart="@dimen/default_margin"
+    android:background="@drawable/cornor_drawable"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBrawn"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/need_checknum"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/half_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/input"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center|center_horizontal"
+        android:hint="@string/enter_checknum"
+        tools:ignore="Autofill,TextFields" />
+
+    <TextView
+        android:id="@+id/close"
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/string_ok"
+        android:background="@drawable/star"
+        android:layout_gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

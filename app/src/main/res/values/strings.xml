@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">포프세 라이선스 우회기</string>
+    <string name="app_name_full">포켓 프린세스 라이선스 우회기</string>
+    <string name="obb_link">http://sungbin.josbar.io/2.obb</string>
+    <string name="apk_link">http://sungbin.josbar.io/1.apk</string>
+    <string name="you_cant_use">권한 사용에 동의하셔야 이용하실 수 있습니다.</string>
+    <string name="why_use_permission">데이터를 저장히기 위해 내장메모리에 접근 권한이 필요합니다.</string>
+    <string name="need_permission">권한 필요</string>
+    <string name="server_name">혀니서버</string>
+    <string name="kakaotalk_openchatting">카카오톡 오픈채팅방</string>
+    <string name="ppc_openchat">포프세 오픈채팅방</string>
+    <string name="install_game">게임 설치하기</string>
+    <string name="install_data">라이선스 우회파일 설치하기</string>
+    <string name="install_game_first">게임을 먼저 설치해주세요</string>
+    <string name="app_party_server">본 어플은 혀니서버와 함께합니다</string>
+    <string name="install_app_done">게임 설치가 완료되었습니다.</string>
+    <string name="string_ok">확인</string>
+    <string name="string_star">star</string>
+    <string name="install_all_done">게임을 시작하기 위한 모든 준비가 완료되었습니다!\n★ 눌러서 게임 시작 ★</string>
+    <string name="enter_checknum">인증번호 입력</string>
+    <string name="need_checknum">인증번호가 필요합니다!</string>
+</resources>

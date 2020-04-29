@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLight"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:background="@color/colorDark"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.iambedant.text.OutlineTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/app_name_full"
+                android:textSize="20sp"
+                android:layout_marginStart="@dimen/default_margin"
+                android:gravity="center"
+                app:outlineColor="@android:color/white"
+                app:outlineWidth="1" />
+
+            <ImageView
+                android:id="@+id/ppcChatRoom"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/ppc_openchat"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:src="@drawable/share"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/default_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:scaleType="fitXY"
+                    android:background="@null"
+                    android:src="@drawable/character"
+                    tools:ignore="NestedWeights" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <Button
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/install_game"
+                        android:id="@+id/installApp"
+                        android:textColor="@color/colorDark"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/cornor_drawable"/>
+
+                    <Button
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/install_data"
+                        android:textColor="@color/colorDark"
+                        android:id="@+id/installData"
+                        android:background="@drawable/cornor_drawable"/>
+
+                    <Button
+                        android:visibility="gone"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/install_all_done"
+                        android:textColor="@color/colorDark"
+                        android:id="@+id/installDone"
+                        android:background="@drawable/cornor_drawable"/>
+
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:paddingTop="@dimen/default_margin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/app_party_server"
+                                android:textColor="@color/colorDark"
+                                android:textSize="15sp"
+                                android:gravity="end"
+                                android:layout_toStartOf="@id/star"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:contentDescription="@string/string_star"
+                                android:id="@+id/star"
+                                android:layout_alignParentEnd="true"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@null"
+                                android:src="@drawable/star"
+                                android:scaleType="fitXY"/>
+
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
