@@ -1,6 +1,6 @@
 # Preview
 ![](https://raw.githubusercontent.com/sungbin5304/PocketPrincessDownloader/master/KakaoTalk_20200409_173604563_03.png)
-> 주문제작 
+> 주문제작 어플리케이션
 
 # Use Library License (opensource license)
 [[OutlineTextView]](https://github.com/iamBedant/OutlineTextView/blob/master/LICENSE)<br>
